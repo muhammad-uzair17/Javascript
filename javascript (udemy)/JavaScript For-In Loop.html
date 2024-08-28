@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="join"></p>
+        <script>
+            var txt = "";
+            var person = {fname:"john", lname:"smith", age:30};
+            var x;
+            for (x in person) {
+                txt += person[x] + " ";
+            }
+          document.getElementById("demo").innerHTML = txt;
+          document.getElementById("join").innerHTML = (x != 6);
+        </script>
+    </body>
+</html>

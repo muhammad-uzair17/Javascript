@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="join"></p>
+        <script>
+            var fruits=["apple","orange","pear","grape","tangerline","mango"];
+            fruits.splice(2, 0, "lemon", "banana");
+          document.getElementById("demo").innerHTML = fruits.toString();
+          document.getElementById("join").innerHTML = fruits.join(" * ");
+        </script>
+    </body>
+</html>

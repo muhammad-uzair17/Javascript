@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="join"></p>
+        <script>
+            var fruits=["apple","orange","pear","grape","tangerline","mango"];
+            fruits.pop();/* to remove last string */
+            fruits.shift();/* to remove first string*/
+            fruits.push("cherry");/* to add string in the last*/
+            fruits.unshift("cherry");/* to add string in the start*/
+          document.getElementById("demo").innerHTML = fruits.toString();
+          document.getElementById("join").innerHTML = fruits.join(" * ");
+        </script>
+    </body>
+</html>

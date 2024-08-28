@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+    <body>
+        <p id="demo"></p>
+        <p id="join"></p>
+        <script>
+            var fruits=["apple","orange","pear","grape","tangerline","mango"];
+            fruits[0] ="kiwi"
+            delete fruits[2];
+          document.getElementById("demo").innerHTML = fruits.toString();
+          document.getElementById("join").innerHTML = fruits.join(" * ");
+        </script>
+    </body>
+</html>
